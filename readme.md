@@ -7,8 +7,7 @@ In this lab, you will learn how to:
 
   * [Create a function from the portal quickstart](#create-from-portal)
   * [Create a function from the Command Line Interface (CLI)](#create-from-cli)
-  * -
-  * -
+
 
 <a name="create-from-portal"></a>
 ## Create a Function from the portal Quickstart
@@ -117,25 +116,6 @@ This will show up a page confirming that the server is operating and the functio
 > You can also use Postman instead of your browser but I just wanted to show the working function.
 
 17. There you have it (again), A fully functional Azure Function but local so you can test it first.
-
-
-
-
-
-
-
-
-
-
-
-
-<a name="connect-to-a-real-world-application"></a>
-##  Connect to a *real world* application
-
-
-1. Open Visual Studio 2017 and create a new **.NET Core Console App** application.
-
- 
 
 
 
