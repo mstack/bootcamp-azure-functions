@@ -13,12 +13,13 @@ In this lab, you will learn how to:
 ## Create a Function from the portal Quickstart
 
 1.	Sign in to the [Microsoft Azure portal](https://portal.azure.com/).
-2.	In the Jumpbar, click **New +**, then select **Compute**, and then look for  **Function App**. 
-
+2.	In the Jumpbar, click **Create a resource +**, then select **Compute**, and scroll down for  **Function App**. 
     ![Screen shot 001 - New Azure Function App from the portal][1]
    
 3. For the new Function app we have to define several values. 
- ![Screen shot 002 - Function creation values][2]
+
+    ![Screen shot 002 - Function creation values][2]
+
    1. **App Name:** The name of the function, this will become the resource url: *yourname*.azurewebsites.net
    2. **Subscription:** The desired subscription you want to run the function on.
    3. **Resource Group:** By default it will create a new resources group for you function. But you can also pick an existing one if you have one at hand.
@@ -29,19 +30,25 @@ In this lab, you will learn how to:
 
 4. When you've set all the variables click 'Create' in the bottom of the pane. The Function app will be created and deployed. This takes a moment. So grab some coffee or read a good book.
 
-5.	Once the new *Function App* is created you need to select the type of Function you want to run. For this simple quickstart Select *Webhook + API* followed by *C#* and then click *Create this function*
+5.	Once the new *Function App* is created you need to create a new function. Click on the '+' sign next to Functions to open the 'Get started quickly screen'. 
+
+6. Select the type of Function you want to run. For this simple quickstart Select *Webhook + API* followed by *C#* and then click *Create this function*
  ![Screen shot 003 - Select a type of function][3]
 
- 6. After the Function is created you get to see a dashboard with some code and a couple of buttons. Just press **Run** and see what happens.
- 7. In the right bottom corner you can see the output result. Obviously you can change the *name* request property in the request body and press *Run* in the bottom right corner to see the changes.
+7. After the Function is created you get to see a dashboard with some code and a couple of buttons. Just press **Run** and see what happens.
+8. In the right bottom corner you can see the output result. Obviously you can change the *name* request property in the request body and press *Run* in the bottom right corner to see the changes.
  ![Screen shote 004 - HTTP Result][4]
- 8. Now we have a functional 'API' so to speak. We need an URL to send requests to. In the top right corner there is small link **'</> Get function URL'** Click this link to gain the URL. 
+9. Now we have a functional 'API' so to speak. We need an URL to send requests to. In the top right corner there is small link **'</> Get function URL'** Click this link to gain the URL. 
  ![Screen shot 005 - API URL][5]
- 9. You can test this URL by just plain pasting it into the browser and run it. Additionally you can append a 'name' property into the querystring to test the response.
+10. You can test this URL by just plain pasting it into the browser and run it. Additionally you can append a 'name' property into the querystring to test the response.
  ![Screen shot 006 - HTTP Response][6]
 
 
  There you have it. A simple, but working, Azure Function.
+
+===========================
+===========================
+ 
 
  
 <a name="create-from-cli"></a>
